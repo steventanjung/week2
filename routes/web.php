@@ -25,3 +25,8 @@ Route::get('halo', function () {
 Route::get('bebas', function () {
     return view('terserah.bebas');
 });
+
+
+Route::get('halo/bebas', function () {
+    return view('terserah.bebas');
+});
