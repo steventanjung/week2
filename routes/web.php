@@ -18,15 +18,15 @@ Route::get('/', function () {
     ->with ('nama',$nama);
 });
 
-Route::get('halo', function () {
-    return view('halo');
+Route::get('about', function () {
+    return view('about');
 });
 
-Route::get('bebas', function () {
-    return view('terserah.bebas');
+Route::get('gallery', function () {
+    return view('rumah.gallery');
 });
 
 
-Route::get('halo/bebas', function () {
-    return view('terserah.bebas');
+Route::get('rumah/gallery', function () {
+    return view('rumah.gallery');
 });
